@@ -1,0 +1,17 @@
+{
+    "ServiceGroupTab": "default",
+    "DebugLog": {
+        "Switch": true,
+        "Count": 50
+    },
+    "KafkaPush": {
+        "Switch": true,
+        "ThreadNum": 2,
+        "Topic": "topic_rec"
+    },
+    "Annoy": {
+        "BasicPath": "/data/annoy_file",
+        "EmbDimension": 64,
+        "SearchNodeNum": 256
+    }
+}

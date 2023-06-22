@@ -1,0 +1,19 @@
+{
+    "TFSModelFolder": [
+        "/data/tfs_model/"
+    ],
+    "TFModel": [
+        {
+            "ModelName": "rank_model_1",
+            "ServiceName": "rank_tfs",
+            "Version": "latest",
+            "TFSAddrList": [],
+            "Timeout": 500,
+            "TransFileName": "feature_trans",
+            "SignatureName": "serving_default",
+            "UseDropoutKeep": false,
+            "RequestMethod": "GRPC",
+            "OutputName": "output_2"
+        }
+    ]
+}

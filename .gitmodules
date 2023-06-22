@@ -1,0 +1,6 @@
+[submodule "AlgoCenter/Protobuf"]
+	path = AlgoCenter/Protobuf
+	url = git@github.com:jason-wang1/protobuf.git
+[submodule "AlgoCenter/CommonLib"]
+	path = AlgoCenter/CommonLib
+	url = git@github.com:jason-wang1/commonlib.git

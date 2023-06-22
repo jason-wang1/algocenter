@@ -1,0 +1,28 @@
+{
+    "Display": {
+        "Download_Recommend": [
+            {
+                "exp_id": 0,
+                "UserGroupList": [
+                    {
+                        "UserGroup": "def_group",
+                        "StrategyList": [
+                            {
+                                "DisplayType": "Scatter",
+                                "PageSize": 8,
+                                "TopNPage": 2,
+                                "Scatters": [
+                                    {
+                                        "ElementList": "ResType_CTCVR",
+                                        "ControlMethod": "NotMoreThan",
+                                        "ControlCount": 2
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "Filter": {
+        "Download_Recommend": [
+            {
+                "exp_id": 0,
+                "UserGroupList": [
+                    {
+                        "UserGroup": "def_group",
+                        "KeepItemNum": 50,
+                        "FilterStrategyList": [
+                            {
+                                "FilterType": "Unfeatured",
+                                "FilterLogSwitch": 1
+                            },
+                            {
+                                "FilterType": "Download",
+                                "ValidityTime": 604800,
+                                "FilterLogSwitch": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

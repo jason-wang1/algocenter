@@ -1,0 +1,11 @@
+{
+    "server_list": [
+        {
+            "host": "algorithm-01",
+            "ip": "172.22.22.189",
+            "exe": "AlgoCenter",
+            "port": "9090",
+            "nickname": "算法中控"
+        }
+    ]
+}

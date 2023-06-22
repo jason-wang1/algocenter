@@ -1,0 +1,17 @@
+{
+    "PreRankExp": [],
+    "RankExp": [
+        {
+            "exp_id": 0,
+            "StrategyList": [
+                {
+                    "Platform": "TensorFlow",
+                    "FeatureName": "TFFeature",
+                    "ModelName": "rank_model_1",
+                    "TruncCount": 0
+                }
+            ]
+        }
+    ],
+    "ReRankExp": []
+}

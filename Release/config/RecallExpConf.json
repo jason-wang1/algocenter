@@ -1,0 +1,56 @@
+{
+    "RecallAndMerge": {
+        "Download_Recommend": [
+            {
+                "exp_id": 0,
+                "UserGroupList": [
+                    {
+                        "UserGroup": "def_group",
+                        "AllMergeNum": 1000,
+                        "RecallAndMergeList": [
+                            {
+                                "recallType": "ResType_CTCVR",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 5
+                            },
+                            {
+                                "recallType": "ResType_DLR",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 5
+                            },
+                            {
+                                "recallType": "ResType_User_CF",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 1
+                            },
+                            {
+                                "recallType": "Item_Annoy",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 1
+                            },
+                            {
+                                "recallType": "ClickOccur",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 1
+                            },
+                            {
+                                "recallType": "DownloadOccur",
+                                "recallNum": 100,
+                                "mergeMaxNum": 100,
+                                "sampleFold": 1
+                            }
+                        ],
+                        "AllSpareMergeNum": 0,
+                        "SpareRecallList": [],
+                        "ExclusiveRecallList": []
+                    }
+                ]
+            }
+        ]
+    }
+}

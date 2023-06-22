@@ -1,0 +1,25 @@
+{
+    "CacheParamArray": [
+        {
+            "Name": "ItemFeature",
+            "RefreshTime": 3600,
+            "RefreshIncrTime": 1
+        },
+        {
+            "Name": "SingleInvertIndex",
+            "RefreshTime": 3600,
+            "RefreshIncrTime": 1
+        },
+        {
+            "Name": "MultiInvertIndex",
+            "RefreshTime": 3600,
+            "RefreshIncrTime": 0
+        }
+    ],
+    "UpdateTimeArray": [
+        1,
+        3600
+    ],
+    "UpdateTimeMinSleep": 1,
+    "UpdateTimeMaxLoop": 3600
+}

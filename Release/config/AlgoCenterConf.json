@@ -1,0 +1,28 @@
+{
+    "RegisterCenterAddr": [
+        "172.22.22.189:6000"
+    ],
+    "RedisList": [
+        {
+            "NameList": [
+                "UserFeature",
+                "ItemFeature",
+                "InvertIndex"
+            ],
+            "IP": "127.0.0.1",
+            "Port": 6379,
+            "Crypto": false,
+            "Password": "Test123456",
+            "Index": 0,
+            "MaxPoolSize": 32
+        }
+    ],
+    "DefaultTFSGRPCAddrList": [
+        "172.22.22.189:8600"
+    ],
+    "TDKafka": {
+        "BrokersList": [
+            "172.22.22.189:9092"
+        ]
+    }
+}
